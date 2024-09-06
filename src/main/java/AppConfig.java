@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 
 @Configuration
-@ComponentScan({"com.pluralsight"})
+@ComponentScan({"com.pluralsight.spring3"})
 public class AppConfig {
 
     /*

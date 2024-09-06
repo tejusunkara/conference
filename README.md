@@ -10,4 +10,9 @@ Spring Framework dependency lives in pom.xml under the `dependencies` tag. Sprin
 * Application - 
 
 ### Details
-This project uses scopes to define service and repository. It also makes use of autowiring for constructor injection.
+This project uses scopes to define service and repository. It also makes use of autowiring for constructor and setter injection.
+
+#### Comparing and Contrasting using XML vs. Java Configuration
+* XML has a natural separation of concerns
+* applicationContext.xml (lives in /src/main/resources) <-> AppConfig
+  * 
